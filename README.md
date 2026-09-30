@@ -23,6 +23,13 @@
 
 每个版本包含播放器入口 `index.html`、Windows 启动脚本、运行时资源 `assets/`、源代码 `source/` 和中文使用说明。v6 额外包含 `bilibili/` 投稿素材文件夹。
 
+## 成品视频
+
+B 站投稿：[这支 EVA MV 是 Claude Opus 5.5 做的｜One Last Kiss｜2K60](https://b23.tv/w52qDW4)
+
+这是本项目网页 MV 的 2K60 视频录制版。
+
 ## 版权声明
 
 音乐及角色版权归原作方。本项目为非商业同人二次创作，仅供学习与欣赏使用。
+
