@@ -1,0 +1,13 @@
+# Keep only the six released versions and repository documentation at the root.
+/*
+!/.gitignore
+!/README.md
+!/OneLastKiss_MV/
+!/OneLastKiss_MV_v2/
+!/OneLastKiss_MV_v3/
+!/OneLastKiss_MV_v4/
+!/OneLastKiss_MV_v5/
+!/OneLastKiss_MV_v6/
+
+# Never commit source FLAC audio, even if copied into a version folder.
+*.flac

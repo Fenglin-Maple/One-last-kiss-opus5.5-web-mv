@@ -1,0 +1,272 @@
+{
+ "_style": {
+  "eva": "Official-quality theatrical anime film still from Evangelion: 3.0+1.0 Thrice Upon a Time (Rebuild of Evangelion, studio khara), faithful canonical character and mecha designs, clean confident line art, cel shading with soft painted gradients, meticulously hand-painted detailed background art, cinematic lighting, strong backlight, lens flare, subtle film grain. No text, no captions, no subtitles, no logos, no watermark, no signature, no border.",
+  "eva_bg": "Theatrical anime background painting from the Rebuild of Evangelion films (studio khara): meticulously hand-painted scenery, crisp perspective, cinematic lighting, atmospheric depth, subtle film grain. No people, no text, no signs with writing, no logos, no watermark.",
+  "eva_cut": "Evangelion Rebuild film character art, faithful canonical design, clean line art, two-tone cel shading, soft rim light. Fully inside the frame with a margin. Isolated on a fully transparent background, no floor, no cast shadow, no scenery. No text, no logo, no watermark.",
+  "pencil": "Hand-drawn with colored pencils on white textured drawing paper in a gentle Japanese anime illustration style, visible pencil strokes and loose hatching, a rainbow palette of orange, coral, pink, violet, blue and turquoise, generous white paper showing through, delicate, airy and innocent. No text, no signature, no watermark."
+ },
+ "earth_tex": {
+  "style": "",
+  "prompt": "Wide 2:1 frame. A seamless equirectangular projection texture map of planet Earth as seen from orbit in true colors: deep blue oceans, green and brown continents, white polar ice, no clouds, no grid lines, no labels, no text, flat even lighting, highly detailed satellite imagery."
+ },
+ "paris_red": {
+  "style": "eva_bg",
+  "prompt": "Wide 16:9 frame. Paris after Near Third Impact, seen from above the Seine at dusk: the whole city is frozen in dark red crystalline core material, the Eiffel Tower lifted and suspended upside down in the red sky, streets covered with red glassy crust, faint cross-shaped light pillars in the distance, eerie beauty."
+ },
+ "paris_blue": {
+  "style": "eva_bg",
+  "prompt": "Wide 16:9 frame. Paris being restored by WILLE: the same view over the Seine, a wave of clean blue-white light sweeping across the city, red crystal crust shattering into glittering dust and revealing restored stone buildings, green trees and blue river, the Eiffel Tower standing again, morning sky, hopeful."
+ },
+ "louvre": {
+  "style": "eva",
+  "prompt": "Wide 16:9 frame. Evangelion Unit-08 (pink and white slender Eva with glasses-like visor) crouching beside the glass pyramid of the Louvre in a Paris covered with red crystal, holding a large gun, WILLE restoration pillars glowing blue around the courtyard, dramatic low angle, dusk."
+ },
+ "u08_cut": {
+  "style": "eva_cut",
+  "prompt": "Wide 16:9 frame. Evangelion Unit-08 (pink and white slender Eva with visor) in a dynamic mid-air leaping pose, one arm forward, full body, strong motion.",
+  "params": {
+   "background": "transparent",
+   "output_format": "png"
+  }
+ },
+ "gallery": {
+  "style": "eva",
+  "prompt": "Square 1:1 frame. A 2 by 2 grid of four separate classical oil portrait paintings, each in an ornate gold frame, evenly spaced on a dark red museum wall: top left Asuka Langley Shikinami, top right Rei Ayanami, bottom left Misato Katsuragi, bottom right Kaworu Nagisa, each painted in Renaissance style with anime faces, museum lighting."
+ },
+ "yui_lisa": {
+  "style": "eva",
+  "prompt": "Portrait 2:3 frame. Yui Ikari (short brown hair, gentle smile, white lab coat) painted as the Mona Lisa in Leonardo da Vinci style: seated three-quarter pose, hands crossed, hazy sfumato landscape behind her with winding roads and a small Evangelion silhouette far away, oil paint craquelure, inside an ornate gold frame, museum light."
+ },
+ "eva01_eye": {
+  "style": "eva",
+  "prompt": "Wide 16:9 frame. Extreme close-up of the face of Evangelion Unit-01 (purple armor, green highlights), its eyes igniting with glowing yellow-green light, jaw armor cracking open, steam and red coolant dripping, dark background with red warning lights."
+ },
+ "nti": {
+  "style": "eva",
+  "prompt": "Wide 16:9 frame. Near Third Impact: Evangelion Unit-01 awakened, floating high above a destroyed city with a glowing white halo ring above its head, arms spread, a gigantic sphere of red light behind it, pillars of cross-shaped light rising from the ground, the sky turned blood red, apocalyptic and beautiful."
+ },
+ "village": {
+  "style": "eva_bg",
+  "prompt": "Wide 16:9 frame. Village 3 in Rebuild of Evangelion at golden hour: a small rural Japanese settlement built inside ruins, rice paddies reflecting the sky, laundry lines, old train cars reused as houses, a huge rusted anti-LCL tower and a translucent seal pillar in the distance, red core-ified land on the far horizon, fireflies starting to appear, warm peaceful nostalgia."
+ },
+ "rei_paddy": {
+  "style": "eva",
+  "prompt": "Wide 16:9 frame. Ayanami Rei (tentative name, black plugsuit, short pale blue hair, red eyes) standing ankle-deep in a flooded rice paddy at golden hour, holding a bundle of green rice seedlings, a straw hat on her back, village ladies planting in the background, gentle breeze, curious innocent expression."
+ },
+ "snap1": {
+  "style": "eva",
+  "prompt": "Square 1:1 frame. Nostalgic snapshot photograph look: Ayanami Rei in a black plugsuit holding a sleeping baby carefully in her arms in a simple village house, warm window light, soft smile."
+ },
+ "snap2": {
+  "style": "eva",
+  "prompt": "Square 1:1 frame. Nostalgic snapshot photograph look: Ayanami Rei with short pale blue hair and a straw hat, and Shinji Ikari, sitting side by side on a green riverside slope at sunset, a small cat between them, peaceful."
+ },
+ "snap3": {
+  "style": "eva",
+  "prompt": "Square 1:1 frame. Nostalgic snapshot photograph look: Toji Suzuhara, Hikari and their baby and Kensuke Aida smiling at a wooden dining table in a humble village house, warm evening lamp light."
+ },
+ "snap4": {
+  "style": "eva",
+  "prompt": "Square 1:1 frame. Nostalgic snapshot photograph look: a quiet girl with short pale blue hair wearing a straw hat, sitting on the wooden porch of an old village house with a small cat on her lap, summer afternoon light."
+ },
+ "rei_dusk": {
+  "style": "eva",
+  "prompt": "Wide 16:9 frame. Close-up of Ayanami Rei with short pale blue hair at dusk in a golden rice field, in a white suit, a single tear on her cheek, surrounded by hundreds of rising glowing orange droplets and light particles like fireflies, holding an old portable cassette player to her chest, soft sad farewell smile, bokeh."
+ },
+ "wunder": {
+  "style": "eva",
+  "prompt": "Wide 16:9 frame. The AAA Wunder, the colossal flying battleship of WILLE: a very long dark blue and black blade-shaped hull like a giant manta ray or a sword, with vast lateral wing-like sections, red markings, glowing orange engines along its spine, flying fast through a canyon of towering sunset clouds, seen from a low three-quarter angle, awe-inspiring scale, speed lines."
+ },
+ "m_misato": {
+  "style": "eva",
+  "prompt": "Wide 16:9 frame. Captain Misato Katsuragi (short dark hair, WILLE captain uniform with red jacket and a cap) standing on the bridge of the Wunder, arm raised giving the order to launch, crew consoles glowing orange behind her, determined face, dramatic backlight."
+ },
+ "m_asuka": {
+  "style": "eva",
+  "prompt": "Wide 16:9 frame. Asuka Langley Shikinami with her eyepatch, wearing a red plugsuit, inside the cockpit entry plug of Evangelion Unit-02, gripping the controls and shouting, orange LCL fluid glow, holographic displays, intense close shot."
+ },
+ "m_mari": {
+  "style": "eva",
+  "prompt": "Wide 16:9 frame. Mari Makinami Illustrious (red glasses, long brown twin tails, pink plugsuit) inside the entry plug of Evangelion Unit-08, grinning fearlessly while pulling the control grips, pink holographic displays, humming a song, dynamic angle."
+ },
+ "m_guns": {
+  "style": "eva",
+  "prompt": "Wide 16:9 frame. The Wunder battleship firing its main cannon broadside: dozens of beams of blazing orange light streaking out of the dark blue hull through smoke and clouds, explosions of enemy NERV ships in the distance, epic battle."
+ },
+ "m_swarm": {
+  "style": "eva",
+  "prompt": "Wide 16:9 frame. A swarm of hundreds of mass-produced white Evangelion units descending from a red spiral sky over the Antarctic red core ocean, like a flock of angels, some holding lances, ominous."
+ },
+ "m_u02": {
+  "style": "eva",
+  "prompt": "Wide 16:9 frame. Evangelion Unit-02 (red, four eyes) charging forward firing a huge rifle among falling debris over a red crystal wasteland, Unit-08 (pink) behind it firing gatling guns, explosions, action shot, speed lines."
+ },
+ "lilith": {
+  "style": "eva",
+  "prompt": "Wide 16:9 frame. Black Lilith: a colossal pitch-black humanoid giant with a blank white face mask and a glowing ring halo, emerging from a red ocean inside the Antarctic Black Moon crater, the crater edge full of red crystal pillars and cross-shaped light, the tiny Wunder battleship flying in front for scale, cosmic dread."
+ },
+ "shinji_cam": {
+  "style": "eva",
+  "prompt": "Wide 16:9 frame. Shinji Ikari (14, short black hair, WILLE casual uniform) turning his face away shyly from an old film camera held up in the foreground out of focus by Mari, a sunlit window behind him, slightly embarrassed, soft summer light."
+ },
+ "set_fight": {
+  "style": "eva",
+  "prompt": "Wide 16:9 frame. Evangelion Unit-01 (purple) and Evangelion Unit-13 (dark purple and red with four arms) locked in combat among the skyscrapers of Tokyo-3, one skyscraper collapsing, dusk sky, the scene looks like a tokusatsu miniature film set with slightly toy-like buildings and studio lights visible at the edges."
+ },
+ "asuka_beach": {
+  "style": "eva",
+  "prompt": "Wide 16:9 frame. Asuka Langley Shikinami without her eyepatch, sitting alone hugging her knees on a red-sand beach at sunset beside a small white sea, wearing her red plugsuit, the doll-like adult Asuka silhouette in the sea mist, melancholic, someone offers her a hand from off-screen."
+ },
+ "gendo_train": {
+  "style": "eva",
+  "prompt": "Wide 16:9 frame. Interior of an empty old Japanese commuter train car at sunset, Gendo Ikari (black beard, tinted glasses, black coat) sitting alone on the long bench seat on the left with hands folded, head lowered, strong orange sunlight flickering through the windows, hanging straps swaying, long shadows, lonely."
+ },
+ "kaworu": {
+  "style": "eva",
+  "prompt": "Wide 16:9 frame. Kaworu Nagisa (silver hair, red eyes, white shirt) sitting at a grand piano in a ruined overgrown room of light, gently smiling at the viewer, sunbeams and dust, farewell, serene."
+ },
+ "fire_fight": {
+  "style": "eva",
+  "prompt": "Wide 16:9 frame. Evangelion Unit-01 and Evangelion Unit-13 clashing weapons in a burning red anti-universe void, huge splashes of flame and sparks, both Evas in dynamic poses, a giant faint face of a woman in the sky, dramatic."
+ },
+ "misato_last": {
+  "style": "eva",
+  "prompt": "Wide 16:9 frame. Captain Misato Katsuragi alone on the burning bridge of the Wunder, bandaged and wounded, placing her hand on the command console, a peaceful determined smile, the bridge collapsing into orange light, sparks and embers, heroic farewell."
+ },
+ "red_crosses": {
+  "style": "eva_bg",
+  "prompt": "Wide 16:9 frame. A calm endless red ocean under a violet sky, rows of gigantic cross-shaped pillars of light rising from the sea to the horizon, a black moon on the horizon, silent and sacred."
+ },
+ "cut_e01": {
+  "style": "eva_cut",
+  "prompt": "Portrait 2:3 frame. Evangelion Unit-01 (purple and green, single horn) standing upright facing the viewer, head slightly lowered, full body from head to feet, calm dignified pose.",
+  "params": {
+   "background": "transparent",
+   "output_format": "png"
+  }
+ },
+ "cut_e02": {
+  "style": "eva_cut",
+  "prompt": "Portrait 2:3 frame. Evangelion Unit-02 (red, four eyes) standing upright facing the viewer, head slightly lowered, full body from head to feet, calm dignified pose.",
+  "params": {
+   "background": "transparent",
+   "output_format": "png"
+  }
+ },
+ "cut_e08": {
+  "style": "eva_cut",
+  "prompt": "Portrait 2:3 frame. Evangelion Unit-08 (pink and white) standing upright facing the viewer, head slightly lowered, full body from head to feet, calm dignified pose.",
+  "params": {
+   "background": "transparent",
+   "output_format": "png"
+  }
+ },
+ "cut_e00": {
+  "style": "eva_cut",
+  "prompt": "Portrait 2:3 frame. Evangelion Unit-00 (blue and white, single eye) standing upright facing the viewer, head slightly lowered, full body from head to feet, calm dignified pose.",
+  "params": {
+   "background": "transparent",
+   "output_format": "png"
+  }
+ },
+ "cut_e13": {
+  "style": "eva_cut",
+  "prompt": "Portrait 2:3 frame. Evangelion Unit-13 (dark purple and red with four arms) standing upright facing the viewer, head slightly lowered, full body from head to feet, calm dignified pose.",
+  "params": {
+   "background": "transparent",
+   "output_format": "png"
+  }
+ },
+ "rei_white": {
+  "style": "eva",
+  "prompt": "Wide 16:9 frame. Rei Ayanami (short pale blue hair, white plugsuit) floating in pure white light, smiling warmly for the last time, her hair drifting, a single tear, hands reaching out, ethereal farewell."
+ },
+ "gendo_yui": {
+  "style": "eva",
+  "prompt": "Wide 16:9 frame. Gendo Ikari (young, without glasses) and Yui Ikari holding hands and looking up together inside a pale glowing light, tears on Gendo face, overexposed white, warm reconciliation."
+ },
+ "shinji_red": {
+  "style": "eva",
+  "prompt": "Wide 16:9 frame. Shinji Ikari alone sitting on the shore of a red sea at dusk, seen from behind, waiting, the world beyond the horizon slowly turning into rough pencil sketch lines and storyboard paper, a single tiny light descending from the sky."
+ },
+ "shinji_blue": {
+  "style": "eva",
+  "prompt": "Wide 16:9 frame. The same beach scene now changing: the sea is turning deep clear blue from the horizon, watercolor washes spreading, Shinji standing up looking at the sky where Evangelion Unit-08 (pink) descends with arms open, soft rain of light."
+ },
+ "u08_desc": {
+  "style": "eva_cut",
+  "prompt": "Portrait 2:3 frame. Evangelion Unit-08 (pink and white) descending from the sky with both arms open wide, full body, gentle pose.",
+  "params": {
+   "background": "transparent",
+   "output_format": "png"
+  }
+ },
+ "ube_platform": {
+  "style": "eva",
+  "prompt": "Wide 16:9 frame. A grown-up Shinji Ikari in a white shirt and dark tie and a grown-up Mari Makinami with red glasses and long brown hair, standing side by side on a sunny small Japanese train station platform, smiling at each other, blue summer sky, nostalgic."
+ },
+ "ube_pilots": {
+  "style": "eva",
+  "prompt": "Wide 16:9 frame. On the opposite platform of a small Japanese train station on a sunny summer day: adult Rei Ayanami, adult Asuka Langley Shikinami and Kaworu Nagisa waiting together in normal casual clothes, smiling calmly, seen across the tracks, bright daylight."
+ },
+ "ube_air": {
+  "style": "eva_bg",
+  "prompt": "Wide 16:9 frame. Aerial view of the seaside industrial city of Ube in Yamaguchi, Japan on a bright summer day: rooftops, green hills, a river flowing into the blue Seto Inland Sea, a train running on the line, distant factories and sea, cumulus clouds, painted in live-action-like anime realism."
+ },
+ "genga": {
+  "style": "",
+  "prompt": "Wide 16:9 frame. An animation key frame drawing (genga) on slightly yellowed paper: rough graphite line art of Evangelion Unit-01 and Shinji Ikari, red and blue colored pencil correction lines, timing notes marks, cut number box, animation peg holes along the top edge, scanned look."
+ },
+ "p_town": {
+  "style": "pencil",
+  "prompt": "Wide 16:9 frame. A quiet Japanese seaside town with a small train station, a road going down to the sea, summer clouds, telephone poles, drawn loosely."
+ },
+ "p_run": {
+  "style": "pencil",
+  "prompt": "Wide 16:9 frame. An adult young man in a white shirt and a young woman with glasses and long hair running hand in hand toward the right, laughing, seen from the side, full body, isolated on a fully transparent background.",
+  "params": {
+   "background": "transparent",
+   "output_format": "png"
+  }
+ },
+ "m_ritsuko": {
+  "style": "eva",
+  "prompt": "Wide 16:9 frame. Dr. Ritsuko Akagi (short bleached blonde hair, WILLE uniform) standing at a console on the Wunder bridge, looking at amber holographic displays, orange rim light, calm expression."
+ },
+ "m_toji": {
+  "style": "eva",
+  "prompt": "Wide 16:9 frame. Adult Toji Suzuhara, a gentle village doctor in a simple shirt and apron, and his wife Hikari holding their baby daughter Tsubame, standing in the doorway of a small wooden clinic in Village-3 at golden hour, warm soft light, laundry and paper lanterns behind, peaceful smiling family."
+ },
+ "m_kensuke": {
+  "style": "eva",
+  "prompt": "Wide 16:9 frame. Adult Kensuke Aida with round glasses and a work cap, sitting by a small campfire outside his handmade hut in a ruined overgrown landscape at dusk, holding a camcorder and smiling, sparks rising, a teenage boy in a plugsuit sitting across the fire seen from behind, warm firelight against blue twilight."
+ },
+ "m_sakura": {
+  "style": "eva",
+  "prompt": "Wide 16:9 frame. Sakura Suzuhara, young WILLE medical officer with short brown hair and a WILLE cap, standing in a red-lit corridor of the Wunder, tearful eyes, both hands clasped at her chest, warning lights, dramatic emotional close shot."
+ },
+ "lance": {
+  "style": "eva",
+  "prompt": "Wide 16:9 frame. The flying battleship AAA Wunder transforming into a colossal glowing spear, the Lance of Gaius, its hull splitting and reforming into a long luminous twin-pronged spear of white and orange light, streaking through a surreal red-black anti-universe sky full of giant crosses and hexagonal light patterns, epic scale, dramatic light rays."
+ },
+ "ube_bench": {
+  "style": "eva",
+  "prompt": "Wide 16:9 frame. Adult Shinji Ikari (short dark hair, white dress shirt, loose tie) sitting alone on a bench at a small seaside train station platform in Ube, Japan, seen from the side, wearing old wired earphones connected to a small vintage cassette player, rain just stopping, sunlight breaking through clouds, wet platform reflecting the sky, sea and industrial port in the distance, calm nostalgic mood."
+ },
+ "cut_shinji_seat": {
+  "style": "eva_cut",
+  "prompt": "Portrait 2:3 frame. Shinji Ikari (14, short black hair, white school shirt, black trousers) sitting on an invisible bench seen from the front, full body from head to shoes, hands on his knees, head lowered, lonely, lit by warm orange sunset light from the side.",
+  "params": {
+   "background": "transparent",
+   "output_format": "png"
+  }
+ },
+ "cut_gendo_seat": {
+  "style": "eva_cut",
+  "prompt": "Portrait 2:3 frame. Gendo Ikari (black beard, orange tinted glasses, long black coat, white gloves) sitting on an invisible bench seen from the front, full body from head to shoes, hands folded in front of his mouth, stiff, lit by warm orange sunset light from the side.",
+  "params": {
+   "background": "transparent",
+   "output_format": "png"
+  }
+ }
+}
